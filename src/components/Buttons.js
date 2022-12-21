@@ -19,7 +19,7 @@ export const Buttons = () => {
        </button>
        <button
          className="button"
-         onClick={() => setModalState({ type: "send", open: true })}
+         onClick={() => setModalState({ type: "receive", open: true })}
        >
          Receive
        </button>
